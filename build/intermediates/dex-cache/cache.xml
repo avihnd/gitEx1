@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Avi\.android\build-cache\2c173c1517b48f6168b40358e7651281e76c33ba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\Avi\Desktop\android\Chat_Ex1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7d80a6a07af43135f88c261efd234c9cdf4d4f7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Avi\Desktop\android\Chat_Ex1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Avi\Desktop\android\Chat_Ex1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1bfed8016d7b89f626ab6abc5fd8b769e995b1de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Avi\Desktop\android\Chat_Ex1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0114585fb62a8859cce0a88f6ce247ad10f7180b">
+        <dex dex="C:\Users\Avi\Desktop\android\Chat_Ex1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_721cd2c67f1ba9d6732aca3ec789a95197d3c04e\classes.dex" />
+    </item>
+
+</items>

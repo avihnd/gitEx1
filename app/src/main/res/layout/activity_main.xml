@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avihnd.chat_ex1.MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/chat_ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:fillViewport="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <TextView
+            android:id="@+id/tv_chat_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/et_user_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp"
+        android:layout_toLeftOf="@+id/button_send"
+        android:layout_toStartOf="@+id/button_send"
+        android:hint="please enter your message here" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_user_msg"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Send"
+        android:textSize="20dp" />
+
+</RelativeLayout>
